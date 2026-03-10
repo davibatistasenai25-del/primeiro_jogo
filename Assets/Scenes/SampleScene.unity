@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 36806114}
   - component: {fileID: 36806113}
   - component: {fileID: 36806112}
+  - component: {fileID: 36806115}
   m_Layer: 0
   m_Name: espinho (18)
   m_TagString: Untagged
@@ -231,6 +232,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36806110}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &36806115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36806110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &54972900
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +260,7 @@ GameObject:
   - component: {fileID: 54972904}
   - component: {fileID: 54972903}
   - component: {fileID: 54972902}
+  - component: {fileID: 54972905}
   m_Layer: 0
   m_Name: espinho (46)
   m_TagString: Untagged
@@ -343,6 +361,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54972900}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &54972905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54972900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &94919602
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +389,7 @@ GameObject:
   - component: {fileID: 94919606}
   - component: {fileID: 94919605}
   - component: {fileID: 94919604}
+  - component: {fileID: 94919607}
   m_Layer: 0
   m_Name: espinho (10)
   m_TagString: Untagged
@@ -455,6 +490,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94919602}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &94919607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94919602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &95393845
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   tomate: {fileID: 95393851}
-  forca: 10
+  forca: 1
 --- !u!54 &95393851
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -639,6 +690,7 @@ GameObject:
   - component: {fileID: 100798165}
   - component: {fileID: 100798164}
   - component: {fileID: 100798163}
+  - component: {fileID: 100798166}
   m_Layer: 0
   m_Name: espinho (48)
   m_TagString: Untagged
@@ -739,6 +791,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100798161}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &100798166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100798161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &103208159
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +819,7 @@ GameObject:
   - component: {fileID: 103208163}
   - component: {fileID: 103208162}
   - component: {fileID: 103208161}
+  - component: {fileID: 103208164}
   m_Layer: 0
   m_Name: espinho (16)
   m_TagString: Untagged
@@ -851,6 +920,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103208159}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &103208164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103208159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &117131170
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +948,7 @@ GameObject:
   - component: {fileID: 117131174}
   - component: {fileID: 117131173}
   - component: {fileID: 117131172}
+  - component: {fileID: 117131175}
   m_Layer: 0
   m_Name: espinho (11)
   m_TagString: Untagged
@@ -963,6 +1049,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117131170}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &117131175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117131170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &130292050
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +1077,7 @@ GameObject:
   - component: {fileID: 130292054}
   - component: {fileID: 130292053}
   - component: {fileID: 130292052}
+  - component: {fileID: 130292055}
   m_Layer: 0
   m_Name: espinho (6)
   m_TagString: Untagged
@@ -1075,6 +1178,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130292050}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &130292055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130292050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &131961725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,6 +1318,7 @@ GameObject:
   - component: {fileID: 141334751}
   - component: {fileID: 141334750}
   - component: {fileID: 141334749}
+  - component: {fileID: 141334752}
   m_Layer: 0
   m_Name: espinho (25)
   m_TagString: Untagged
@@ -1299,6 +1419,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141334747}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &141334752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141334747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &142938344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1447,7 @@ GameObject:
   - component: {fileID: 142938348}
   - component: {fileID: 142938347}
   - component: {fileID: 142938346}
+  - component: {fileID: 142938349}
   m_Layer: 0
   m_Name: espinho (30)
   m_TagString: Untagged
@@ -1411,6 +1548,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142938344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &142938349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142938344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &158228420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,6 +1576,7 @@ GameObject:
   - component: {fileID: 158228424}
   - component: {fileID: 158228423}
   - component: {fileID: 158228422}
+  - component: {fileID: 158228425}
   m_Layer: 0
   m_Name: espinho (24)
   m_TagString: Untagged
@@ -1523,6 +1677,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158228420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &158228425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158228420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &213510063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,6 +1705,7 @@ GameObject:
   - component: {fileID: 213510067}
   - component: {fileID: 213510066}
   - component: {fileID: 213510065}
+  - component: {fileID: 213510068}
   m_Layer: 0
   m_Name: espinho (4)
   m_TagString: Untagged
@@ -1635,6 +1806,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213510063}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &213510068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213510063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &228848124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1834,7 @@ GameObject:
   - component: {fileID: 228848128}
   - component: {fileID: 228848127}
   - component: {fileID: 228848126}
+  - component: {fileID: 228848129}
   m_Layer: 0
   m_Name: espinho (34)
   m_TagString: Untagged
@@ -1747,6 +1935,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228848124}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &228848129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228848124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &257197642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,6 +2075,7 @@ GameObject:
   - component: {fileID: 269652786}
   - component: {fileID: 269652785}
   - component: {fileID: 269652784}
+  - component: {fileID: 269652787}
   m_Layer: 0
   m_Name: espinho (40)
   m_TagString: Untagged
@@ -1971,6 +2176,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269652782}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &269652787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269652782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &298184652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2204,7 @@ GameObject:
   - component: {fileID: 298184656}
   - component: {fileID: 298184655}
   - component: {fileID: 298184654}
+  - component: {fileID: 298184657}
   m_Layer: 0
   m_Name: espinho (42)
   m_TagString: Untagged
@@ -2083,6 +2305,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298184652}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &298184657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298184652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2470,7 @@ GameObject:
   - component: {fileID: 342814650}
   - component: {fileID: 342814649}
   - component: {fileID: 342814648}
+  - component: {fileID: 342814651}
   m_Layer: 0
   m_Name: espinho (17)
   m_TagString: Untagged
@@ -2332,6 +2571,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342814646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &342814651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342814646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,6 +2726,7 @@ GameObject:
   - component: {fileID: 420744362}
   - component: {fileID: 420744361}
   - component: {fileID: 420744360}
+  - component: {fileID: 420744363}
   m_Layer: 0
   m_Name: espinho (49)
   m_TagString: Untagged
@@ -2571,6 +2827,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420744358}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &420744363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420744358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &440086082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,6 +2855,7 @@ GameObject:
   - component: {fileID: 440086086}
   - component: {fileID: 440086085}
   - component: {fileID: 440086084}
+  - component: {fileID: 440086087}
   m_Layer: 0
   m_Name: espinho (31)
   m_TagString: Untagged
@@ -2683,6 +2956,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440086082}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &440086087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440086082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &440356744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,6 +2984,7 @@ GameObject:
   - component: {fileID: 440356748}
   - component: {fileID: 440356747}
   - component: {fileID: 440356746}
+  - component: {fileID: 440356749}
   m_Layer: 0
   m_Name: espinho (15)
   m_TagString: Untagged
@@ -2795,6 +3085,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440356744}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &440356749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440356744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &451527633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,6 +3113,7 @@ GameObject:
   - component: {fileID: 451527637}
   - component: {fileID: 451527636}
   - component: {fileID: 451527635}
+  - component: {fileID: 451527638}
   m_Layer: 0
   m_Name: espinho (36)
   m_TagString: Untagged
@@ -2907,6 +3214,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451527633}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &451527638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451527633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &510048464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +3242,7 @@ GameObject:
   - component: {fileID: 510048468}
   - component: {fileID: 510048467}
   - component: {fileID: 510048466}
+  - component: {fileID: 510048469}
   m_Layer: 0
   m_Name: espinho (37)
   m_TagString: Untagged
@@ -3019,6 +3343,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510048464}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &510048469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510048464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &515348144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3255,6 +3595,7 @@ GameObject:
   - component: {fileID: 539851462}
   - component: {fileID: 539851461}
   - component: {fileID: 539851460}
+  - component: {fileID: 539851463}
   m_Layer: 0
   m_Name: espinho (3)
   m_TagString: Untagged
@@ -3355,6 +3696,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539851458}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &539851463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539851458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &546408766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,6 +3724,7 @@ GameObject:
   - component: {fileID: 546408770}
   - component: {fileID: 546408769}
   - component: {fileID: 546408768}
+  - component: {fileID: 546408771}
   m_Layer: 0
   m_Name: espinho (14)
   m_TagString: Untagged
@@ -3467,6 +3825,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546408766}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &546408771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546408766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &553672700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,6 +3853,7 @@ GameObject:
   - component: {fileID: 553672704}
   - component: {fileID: 553672703}
   - component: {fileID: 553672702}
+  - component: {fileID: 553672705}
   m_Layer: 0
   m_Name: espinho (23)
   m_TagString: Untagged
@@ -3579,6 +3954,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553672700}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &553672705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553672700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &579895339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3982,7 @@ GameObject:
   - component: {fileID: 579895343}
   - component: {fileID: 579895342}
   - component: {fileID: 579895341}
+  - component: {fileID: 579895344}
   m_Layer: 0
   m_Name: espinho (20)
   m_TagString: Untagged
@@ -3691,6 +4083,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579895339}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &579895344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579895339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &607769438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,6 +4111,7 @@ GameObject:
   - component: {fileID: 607769442}
   - component: {fileID: 607769441}
   - component: {fileID: 607769440}
+  - component: {fileID: 607769443}
   m_Layer: 0
   m_Name: espinho (43)
   m_TagString: Untagged
@@ -3803,6 +4212,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607769438}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &607769443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607769438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &645439321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3815,6 +4240,7 @@ GameObject:
   - component: {fileID: 645439325}
   - component: {fileID: 645439324}
   - component: {fileID: 645439323}
+  - component: {fileID: 645439326}
   m_Layer: 0
   m_Name: espinho (45)
   m_TagString: Untagged
@@ -3915,6 +4341,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645439321}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &645439326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645439321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &648575136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3927,6 +4369,7 @@ GameObject:
   - component: {fileID: 648575140}
   - component: {fileID: 648575139}
   - component: {fileID: 648575138}
+  - component: {fileID: 648575141}
   m_Layer: 0
   m_Name: espinho (33)
   m_TagString: Untagged
@@ -4027,6 +4470,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648575136}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &648575141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648575136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &695708042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,6 +4610,7 @@ GameObject:
   - component: {fileID: 722177488}
   - component: {fileID: 722177487}
   - component: {fileID: 722177486}
+  - component: {fileID: 722177489}
   m_Layer: 0
   m_Name: espinho (50)
   m_TagString: Untagged
@@ -4251,6 +4711,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722177484}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &722177489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722177484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &730957454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,6 +4739,7 @@ GameObject:
   - component: {fileID: 730957458}
   - component: {fileID: 730957457}
   - component: {fileID: 730957456}
+  - component: {fileID: 730957459}
   m_Layer: 0
   m_Name: espinho (1)
   m_TagString: Untagged
@@ -4363,6 +4840,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730957454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &730957459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730957454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &733011438
 GameObject:
   m_ObjectHideFlags: 0
@@ -4375,6 +4868,7 @@ GameObject:
   - component: {fileID: 733011442}
   - component: {fileID: 733011441}
   - component: {fileID: 733011440}
+  - component: {fileID: 733011443}
   m_Layer: 0
   m_Name: espinho (28)
   m_TagString: Untagged
@@ -4475,6 +4969,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733011438}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &733011443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733011438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &733717824
 GameObject:
   m_ObjectHideFlags: 0
@@ -4487,6 +4997,7 @@ GameObject:
   - component: {fileID: 733717828}
   - component: {fileID: 733717827}
   - component: {fileID: 733717826}
+  - component: {fileID: 733717829}
   m_Layer: 0
   m_Name: espinho (5)
   m_TagString: Untagged
@@ -4587,6 +5098,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733717824}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &733717829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733717824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &780590797
 GameObject:
   m_ObjectHideFlags: 0
@@ -4599,6 +5126,7 @@ GameObject:
   - component: {fileID: 780590801}
   - component: {fileID: 780590800}
   - component: {fileID: 780590799}
+  - component: {fileID: 780590802}
   m_Layer: 0
   m_Name: espinho (8)
   m_TagString: Untagged
@@ -4699,6 +5227,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780590797}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &780590802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780590797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &815425985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,6 +5255,7 @@ GameObject:
   - component: {fileID: 815425989}
   - component: {fileID: 815425988}
   - component: {fileID: 815425987}
+  - component: {fileID: 815425990}
   m_Layer: 0
   m_Name: espinho (44)
   m_TagString: Untagged
@@ -4811,6 +5356,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815425985}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &815425990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815425985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &829750402
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,6 +5498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec48fd23cacf7a4bbcd9ce7d3f960b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  chao:
+    serializedVersion: 2
+    m_Bits: 55
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4998,6 +5562,7 @@ GameObject:
   - component: {fileID: 835457146}
   - component: {fileID: 835457145}
   - component: {fileID: 835457144}
+  - component: {fileID: 835457147}
   m_Layer: 0
   m_Name: espinho (22)
   m_TagString: Untagged
@@ -5098,6 +5663,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835457142}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &835457147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835457142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &846067045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,6 +6139,7 @@ GameObject:
   - component: {fileID: 919900640}
   - component: {fileID: 919900639}
   - component: {fileID: 919900638}
+  - component: {fileID: 919900641}
   m_Layer: 0
   m_Name: espinho (19)
   m_TagString: Untagged
@@ -5658,6 +6240,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919900636}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &919900641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919900636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &928439190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,6 +6492,7 @@ GameObject:
   - component: {fileID: 941230168}
   - component: {fileID: 941230167}
   - component: {fileID: 941230166}
+  - component: {fileID: 941230169}
   m_Layer: 0
   m_Name: espinho (35)
   m_TagString: Untagged
@@ -5994,6 +6593,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941230164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &941230169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941230164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1134609044
 GameObject:
   m_ObjectHideFlags: 0
@@ -6118,6 +6733,7 @@ GameObject:
   - component: {fileID: 1155414621}
   - component: {fileID: 1155414620}
   - component: {fileID: 1155414619}
+  - component: {fileID: 1155414622}
   m_Layer: 0
   m_Name: espinho (38)
   m_TagString: Untagged
@@ -6218,6 +6834,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155414617}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1155414622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155414617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1303550732
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,8 +6859,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1303550733}
+  - component: {fileID: 1303550734}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Espinhos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6300,6 +6933,22 @@ Transform:
   - {fileID: 730957455}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1303550734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303550732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1375093059
 GameObject:
   m_ObjectHideFlags: 0
@@ -6312,6 +6961,7 @@ GameObject:
   - component: {fileID: 1375093063}
   - component: {fileID: 1375093062}
   - component: {fileID: 1375093061}
+  - component: {fileID: 1375093064}
   m_Layer: 0
   m_Name: espinho (27)
   m_TagString: Untagged
@@ -6412,6 +7062,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375093059}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1375093064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375093059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1414010278
 GameObject:
   m_ObjectHideFlags: 0
@@ -6424,6 +7090,7 @@ GameObject:
   - component: {fileID: 1414010282}
   - component: {fileID: 1414010281}
   - component: {fileID: 1414010280}
+  - component: {fileID: 1414010283}
   m_Layer: 0
   m_Name: espinho (9)
   m_TagString: Untagged
@@ -6524,6 +7191,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414010278}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1414010283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414010278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1421910233
 GameObject:
   m_ObjectHideFlags: 0
@@ -7113,6 +7796,7 @@ GameObject:
   - component: {fileID: 1695226776}
   - component: {fileID: 1695226775}
   - component: {fileID: 1695226774}
+  - component: {fileID: 1695226777}
   m_Layer: 0
   m_Name: espinho (13)
   m_TagString: Untagged
@@ -7213,6 +7897,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695226772}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1695226777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695226772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1736983153
 GameObject:
   m_ObjectHideFlags: 0
@@ -7225,6 +7925,7 @@ GameObject:
   - component: {fileID: 1736983157}
   - component: {fileID: 1736983156}
   - component: {fileID: 1736983155}
+  - component: {fileID: 1736983158}
   m_Layer: 0
   m_Name: espinho (21)
   m_TagString: Untagged
@@ -7325,6 +8026,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736983153}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1736983158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736983153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1793949143
 GameObject:
   m_ObjectHideFlags: 0
@@ -7337,6 +8054,7 @@ GameObject:
   - component: {fileID: 1793949147}
   - component: {fileID: 1793949146}
   - component: {fileID: 1793949145}
+  - component: {fileID: 1793949148}
   m_Layer: 0
   m_Name: espinho (26)
   m_TagString: Untagged
@@ -7437,6 +8155,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793949143}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1793949148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793949143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1831805719
 GameObject:
   m_ObjectHideFlags: 0
@@ -7449,6 +8183,7 @@ GameObject:
   - component: {fileID: 1831805723}
   - component: {fileID: 1831805722}
   - component: {fileID: 1831805721}
+  - component: {fileID: 1831805724}
   m_Layer: 0
   m_Name: espinho (47)
   m_TagString: Untagged
@@ -7549,6 +8284,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831805719}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1831805724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831805719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1837962272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,6 +8312,7 @@ GameObject:
   - component: {fileID: 1837962276}
   - component: {fileID: 1837962275}
   - component: {fileID: 1837962274}
+  - component: {fileID: 1837962277}
   m_Layer: 0
   m_Name: espinho (29)
   m_TagString: Untagged
@@ -7661,6 +8413,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837962272}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1837962277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837962272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1850670147
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,6 +8665,7 @@ GameObject:
   - component: {fileID: 1921761523}
   - component: {fileID: 1921761522}
   - component: {fileID: 1921761521}
+  - component: {fileID: 1921761524}
   m_Layer: 0
   m_Name: espinho (32)
   m_TagString: Untagged
@@ -7997,6 +8766,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921761519}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1921761524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921761519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1940207866
 GameObject:
   m_ObjectHideFlags: 0
@@ -8009,6 +8794,7 @@ GameObject:
   - component: {fileID: 1940207870}
   - component: {fileID: 1940207869}
   - component: {fileID: 1940207868}
+  - component: {fileID: 1940207871}
   m_Layer: 0
   m_Name: espinho (41)
   m_TagString: Untagged
@@ -8109,6 +8895,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940207866}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1940207871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940207866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1952860922
 GameObject:
   m_ObjectHideFlags: 0
@@ -8121,6 +8923,7 @@ GameObject:
   - component: {fileID: 1952860926}
   - component: {fileID: 1952860925}
   - component: {fileID: 1952860924}
+  - component: {fileID: 1952860927}
   m_Layer: 0
   m_Name: espinho (7)
   m_TagString: Untagged
@@ -8221,6 +9024,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952860922}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1952860927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952860922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1981655260
 GameObject:
   m_ObjectHideFlags: 0
@@ -8233,6 +9052,7 @@ GameObject:
   - component: {fileID: 1981655264}
   - component: {fileID: 1981655263}
   - component: {fileID: 1981655262}
+  - component: {fileID: 1981655265}
   m_Layer: 0
   m_Name: espinho
   m_TagString: Untagged
@@ -8333,6 +9153,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981655260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1981655265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981655260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1987029741
 GameObject:
   m_ObjectHideFlags: 0
@@ -8345,6 +9181,7 @@ GameObject:
   - component: {fileID: 1987029745}
   - component: {fileID: 1987029744}
   - component: {fileID: 1987029743}
+  - component: {fileID: 1987029746}
   m_Layer: 0
   m_Name: espinho (2)
   m_TagString: Untagged
@@ -8445,6 +9282,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987029741}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1987029746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987029741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &2052784465
 GameObject:
   m_ObjectHideFlags: 0
@@ -8457,6 +9310,7 @@ GameObject:
   - component: {fileID: 2052784469}
   - component: {fileID: 2052784468}
   - component: {fileID: 2052784467}
+  - component: {fileID: 2052784470}
   m_Layer: 0
   m_Name: espinho (39)
   m_TagString: Untagged
@@ -8557,6 +9411,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052784465}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2052784470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052784465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3bc9fa1486a0459a57e057bba128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Deus
+  tamanho: 5
+  puta:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
